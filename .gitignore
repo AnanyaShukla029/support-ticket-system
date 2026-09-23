@@ -1,0 +1,21 @@
+# Environment files (commit examples only)
+backend/src/main/resources/env.properties
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# Java / Maven
+target/
+backend/target/
+.m2/
+.mvn/timing.properties
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/coverage/
+
+# Logs and OS files
+*.log
+.DS_Store

@@ -1,0 +1,8 @@
+spring:
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000

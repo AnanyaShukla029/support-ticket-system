@@ -19,3 +19,9 @@ frontend/coverage/
 # Logs and OS files
 *.log
 .DS_Store
+
+.idea
+.cursorindexingignore
+.cursor
+.specstory
+.vscode
